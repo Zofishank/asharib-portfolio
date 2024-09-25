@@ -1,0 +1,33 @@
+.about_main{
+    width: 100vw;
+    height: 100vh;
+}
+.about_div{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+.about_me_text h2{
+    text-align: start;
+}
+.about_me_text p{
+    margin-top: 10px;
+    width: 500px;
+}
+.img_bg{
+    width: 250px;
+    height: 360px;
+    background: #b3f201;
+    border-radius: 20px;
+    position: inherit;
+    overflow: hidden;
+}
+
+.btn a{
+    color: #000;
+    text-decoration: none;
+    font-size: 17px;
+}

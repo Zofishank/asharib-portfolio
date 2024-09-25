@@ -1,0 +1,748 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+body{
+    background: #13131d;
+    color:white;
+}
+.landingPage{
+    width: 100vw;
+    height: 100vh;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    padding: 30px 150px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding-top: 50px;
+}
+.logo img{
+    width: 100px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+.nav a:hover{
+    color: #b3f201;
+}
+
+.landingPageContent{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    margin-top: 35px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    padding-left: 60px;
+    margin-top: -120px;
+}
+
+.intro h1{
+    font-family: "Oswald", system-ui;
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 80px;
+    color: #fff;
+
+
+}
+.intro h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #b3f201;
+}
+.intro p{
+    width: 380px;
+    padding: 5px;
+    font-size: 20px; 
+}
+.intro .btn{
+    font-size: 16px;
+    margin: 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: #b3f201;
+    font-size: 18px;
+    color: black;
+}
+.imgDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.img_bg{
+    margin: 20px;
+    border-radius: 50%;
+    position:absolute;
+}
+.landingPageContent #circle1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    right: 20%;
+    bottom: 40%;
+    background: #b3f201;
+    overflow: hidden;
+}
+.landingPageContent #circle2{
+    width: 300px;
+    height: 30px;
+    right: 20%;
+    background: rgba(93, 103, 104, 0.075);
+    bottom: 38%;
+    
+}
+.image{
+    border-radius: 200px;
+    margin-top: -90px;
+}
+
+.aboutSecContent{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+    position: relative;
+}
+.aboutSection .imgDiv{
+    width: 30%;
+    height: 100%;
+}
+.aboutSection .img_frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 280px;
+    height: 370px;
+    border-radius: 40px;
+    background: #b3f201;
+}
+
+.aboutSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+.about_me_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 50vh;
+    padding: 20px;
+}
+.about_me_text h2{
+    font-size: 35px;
+    color: #b3f201;
+    text-align: center;
+    padding: 20px;
+    font-family: "Nunito", sans-serif;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+
+.about_me_text p{
+    width: 380px;
+    padding: 5px;
+    font-size: 22px; 
+    margin-top: 20px;
+}
+.btns{
+    margin-top: 30px;
+}
+.btns .btn{
+    font-size: 18px;
+    margin: 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: #b3f201;
+    font-size: 17px;
+    color: black;
+}
+.btn a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.btn:hover{
+    background: white;
+    transform: scale(1.1);
+}
+
+.skills{
+    width: 100%;
+    height: 50vh;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+}
+.skills h2{
+    font-size: 35px;
+    color: #b3f201;
+    text-align: center;
+    padding: 20px;
+    font-family: "Nunito", sans-serif;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.skill_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.skillsContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.progressBar{
+    position: relative;
+
+}
+.outerCircle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.2);
+}
+.innerCircle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+    inset -4px -4px 6px -1px rgba(8, 6, 6, 0.336),
+    -0.5px -0.5px 0px rgba(0,0,0,0.15),
+    0px 12px 10px -10px rgba(0,0,0,0.05);
+}
+.c_no,.ps_no,.il_no,.cor_no{
+    font-size: 18px;
+    color: #fff;
+}
+circle{
+    fill: none;
+    stroke: #b3f201;
+    stroke-width: 15px;
+    stroke-dasharray: 250;
+    stroke-dashoffset: 250;
+}
+#canva circle{
+    animation:anim1 2s linear forwards ;
+}
+#illus circle{
+    animation:anim2 2s linear forwards ;
+}
+#ps circle{
+    animation:anim3 2s linear forwards ;
+}
+#corel circle{
+    animation:anim4 2s linear forwards ;
+}
+@keyframes anim1{
+    100%{
+        stroke-dashoffset: 50;
+    }
+    
+}
+@keyframes anim2{
+    100%{
+        stroke-dashoffset: 100;
+    }
+    
+}
+@keyframes anim3{
+    100%{
+        stroke-dashoffset: 150;
+    }
+    
+}
+@keyframes anim4{
+    100%{
+        stroke-dashoffset: 125;
+    }
+    
+}
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.services{
+    width: 100vw;
+    height: 45vh;
+}
+.services h2{
+    font-size: 35px;
+    color: #b3f201;
+    text-align: center;
+    padding: 20px;
+    font-family: "Nunito", sans-serif;
+    text-transform: capitalize;
+    font-weight: 800;
+    margin-bottom: -40px;
+}
+
+
+.serviceScrollerDiv{
+    width: 100%;
+    height: 340px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    overflow: hidden;
+}
+.serviceScroller{
+    display:flex;
+    width: 1500px;
+    gap: 40px;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    padding:0 20px;
+    margin-top: 20px;
+}
+.serviceScroller i{
+    font-size: 30px;
+}
+.next_btn,.back_btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #b3f201;
+    margin: 20px;
+}
+.slide{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.serviceScroller .card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    background: #fff;
+    color: black;
+    border-radius:20px;
+    padding: 20px;
+}
+.serviceScroller .card a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+}
+.serviceScroller .card:hover{
+    background: #b3f201;
+    transform: scale(1.2);
+}
+
+.serviceScroller .card img{
+    width: 80px;
+    margin-top: 20px;
+}
+
+.projects{
+    width: 100%;
+    height: 100vh;
+    border-radius: 10px;
+}
+.projects h2{
+    font-size: 35px;
+    color: #b3f201;
+    text-align: center;
+    padding: 20px;
+    font-family: "Nunito", sans-serif;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    height: 40vh;
+    margin-top: 20px;
+}
+.projects .card{
+    width: 360px;
+    height: 360px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.card_container img{
+    width: 1005;
+    height: 100%;
+    object-fit: cover;
+}
+.contact_main{
+    width: 100vw;
+    height: 90vh;
+}
+.contactMe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+    border-radius: 20px 20px 0 0;
+    background: #b3f201;
+    margin-top: 100px;
+}
+.contactMe h1{
+    color: black;
+    font-size: 4vw;
+    text-align: center;
+    
+}
+.contact_container{
+    width: 100%;
+    height: 50vh;
+}
+
+.contact_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.icon i,.handle i{
+    text-align: center;
+    color: #b3f201;
+    font-size: 30px;
+}
+.text p{
+    text-align: center;
+}
+.details p{
+    text-align: center;
+    color: #b3f201;
+    font-size: 20px;
+}
+.social_media_handles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.handle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.handle a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px ;
+}
+/* Tablet View (768px and below) */
+@media only screen and (max-width: 768px) {
+    .nav {
+        padding: 20px 50px;
+        height: auto;
+    }
+    .nav a {
+        font-size: 14px;
+        margin: 10px;
+    }
+    .intro h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .intro h2 {
+        font-size: 30px;
+    }
+    .intro p {
+        font-size: 18px;
+        width: 100%;
+    }
+    .landingPageContent {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .intro {
+        width: 100%;
+        padding: 0;
+        margin-top: 0;
+    }
+    .imgDiv {
+        width: 100%;
+        height: 60%;
+    }
+    .img_bg {
+        width: 250px;
+        height: 250px;
+    }
+    .aboutSecContent {
+        width: 100%;
+        flex-direction: column;
+    }
+    .about_me_text, .aboutSection .imgDiv {
+        width: 100%;
+    }
+    .services {
+        height: auto;
+    }
+    .projects {
+        height: auto;
+    }
+    .projects .card {
+        width: 100%;
+        height: auto;
+    }
+    .contact_main {
+        height: auto;
+    }
+}
+
+/* Mobile View (480px and below) */
+@media only screen and (max-width: 480px) {
+    .nav{
+        width: 70px;
+        height: 200px;
+        padding: 0px 10px;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .logo{
+        padding-top: 20px;
+    }
+    .landingPage{
+        position: relative;
+    }
+    .logo img{
+        width: 40px;
+    }
+    .nav a{
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        margin: 4px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav a:hover{
+        color: #b3f201;
+    }
+    
+    .landingPageContent{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding: 50px;
+        margin-top: 35px;
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        height: 100%;
+        padding-left: 60px;
+        margin-top: -120px;
+    }
+    
+    .intro h1{
+        font-family: "Oswald", system-ui;
+        font-size: 20px;
+        text-transform: uppercase;
+        line-height: 20px;
+        color: #fff;
+    
+    
+    }
+    .intro h2{
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        color: #b3f201;
+    }
+    .intro p{
+        width: 380px;
+        padding: 5px;
+        font-size: 20px; 
+    }
+    .intro .btn{
+        font-size: 16px;
+        margin: 10px;
+        width: 150px;
+        padding: 10px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        background: #b3f201;
+        font-size: 18px;
+        color: black;
+    }
+    .imgDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 100%;
+    }
+    .img_bg{
+        margin: 20px;
+        border-radius: 50%;
+        position:absolute;
+    }
+    .landingPageContent #circle1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        right:-20%;
+        top: -270%;
+        background: #b3f201;
+        border-top-right-radius: red;
+        overflow: hidden;
+    }
+    .landingPageContent #circle2{
+        width: 100px;
+        height: 10px;
+        right: -20%;
+        background: rgba(93, 103, 104, 0.075);
+        bottom: 250%;
+        
+    }
+    .image{
+        border-radius: 200px;
+        margin-top: -90px;
+    }
+    
+    .aboutSecContent{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 50px;
+        position: relative;
+    }
+    .aboutSection .imgDiv{
+        width: 30%;
+        height: 100%;
+    }
+    .aboutSection .img_frame{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        width: 280px;
+        height: 370px;
+        border-radius: 40px;
+        background: #b3f201;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+}

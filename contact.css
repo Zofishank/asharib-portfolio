@@ -1,0 +1,82 @@
+.contact_main{
+    width: 100vw;
+    height: 100vh;
+}
+.contactMe{
+    width: 100%;
+    height: 40vh;
+    background: #b3f201;
+    margin-top: -50px;
+}
+.nav{
+    background: #b3f201;
+}
+.nav a{
+    color: black;
+}
+.nav a:hover{
+    color: gray;
+}
+.contactMe h1{
+    color: black;
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.contact_container{
+    width: 100%;
+    height: 60vh;
+    background: #000;
+}
+
+.contact_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.icon i,.handle i{
+    text-align: center;
+    color: #b3f201;
+    font-size: 30px;
+}
+.text p{
+    text-align: center;
+}
+.details p{
+    text-align: center;
+    color: #b3f201;
+    font-size: 20px;
+}
+.social_media_handles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+.handle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.handle a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px ;
+}

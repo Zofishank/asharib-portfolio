@@ -1,0 +1,99 @@
+.projects_main{
+    width: 100vw;
+    height: 100vh;
+}
+.projects_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+}
+.projects_slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 85%;
+    height: 85%;
+    border-radius: 20px;
+     overflow: hidden;
+}
+.projects_slider .images{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.projects_slider .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 0px;
+    border: 2px solid yellowgreen;
+    cursor: pointer;
+    position: relative;
+    transform: 0.7s ease;
+    color: black;
+    background: #b3f201;
+}
+.images h1{
+    width: 600px;
+    font-size: 40px;
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    white-space: nowrap;
+}
+.image img{
+    width: 600px;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+.images .image:first-child,.images .image:last-child{
+    width: 80px;
+    height: 400px;
+}
+.images .image:nth-child(2),.images .image:nth-child(8){
+
+    height: 450px;
+    width: 80px;
+}
+.images .image:nth-child(3),.images .image:nth-child(7){
+    height: 500px;
+    width: 80px;
+}
+.images .image:nth-child(4),.images .image:nth-child(6){
+    width: 80px;
+    height: 550px;
+}
+.images .image:nth-child(5){
+    height: 600px;
+    width: 80px;
+
+}
+
+.image:hover img{
+    display: block;
+    width: 600px;
+}
+.image:hover h1{
+    display: none;
+    width: 0px;
+}
+.image:hover{
+    background: transparent;
+    border: none;
+    animation: showSlide 0.5s linear forwards;
+}
+@keyframes showSlide {
+    100%{
+        width: 600px;
+        transform: scale(1.1);
+        height: 600px;
+        margin: 30px;
+    }
+}
